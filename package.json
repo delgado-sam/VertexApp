@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start:server": "ts-node server/index.ts",
+    "test:unit": "jest",
+    "test:unit:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
+    "@nuxtjs/composition-api": "^0.34.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nuxt": "^3.11.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2",
+    "vuetify": "^3.6.0-beta.0.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.6",
+    "@types/webfontloader": "^1.6.38",
+    "@vue/test-utils": "^2.4.6",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.9.5",
+    "vue-jest": "^5.0.0-alpha.10"
+  }
+}
