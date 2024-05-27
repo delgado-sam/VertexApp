@@ -32,5 +32,5 @@ To run the tests, use the following command:
 
 ```bash
 # npm
-npm install
+npm run test:unit
 ```
