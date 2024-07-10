@@ -1,4 +1,4 @@
-# Vertex Application
+# Vertex Application (VUE APP)
 
 ![Screen Shot 2024-05-27 at 4 46 33 PM](https://github.com/delgado-sam/VertexApp/assets/83796303/a0fcb4c9-6d09-4e35-b50b-3bb1a89918b5)
 
